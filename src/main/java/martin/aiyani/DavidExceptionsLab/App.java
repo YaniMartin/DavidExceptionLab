@@ -7,7 +7,7 @@ package martin.aiyani.DavidExceptionsLab;
  */
 public class App extends Calculator {
 
-    public static void main(String[] args) throws IllegalArgumentException{
+    public static void main(String[] args) throws DivisionByZeroException {
         add(1,2);
         add(3,4);
         subtract(3,2);
@@ -17,7 +17,8 @@ public class App extends Calculator {
         divide(10,2);
         divide(4,0);
 
-     /*  try{divide(10,2);
+     /*  Part 1 Exception Handling in main:
+        try{divide(10,2);
             divide(4,0);
             }
         catch(Exception badDivision){

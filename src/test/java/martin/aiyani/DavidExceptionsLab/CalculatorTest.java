@@ -1,6 +1,8 @@
 package martin.aiyani.DavidExceptionsLab;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.internal.Classes;
+
 import static org.junit.Assert.*;
 
 // ヽ(ﾟДﾟ)ﾉ //
@@ -39,7 +41,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void divideTest() {
+    public void divideTest() throws DivisionByZeroException {
         int firstDivideInput = 4;
         int secondDivideInput = 2;
         int expected = 2;
@@ -48,13 +50,42 @@ public class CalculatorTest {
     }
 
     @Test
-    public void exceptionDivisionTest() {
+    public void exceptionDivisionTest() throws DivisionByZeroException {
         int goodNumber = 5;
         int naughtyNumber = 0;
-        Class<IllegalArgumentException> expected = IllegalArgumentException.class;
-        int actual = calculator.divide(goodNumber, naughtyNumber);
-        assertEquals("This will pass if exception is thrown", expected, actual);
+        boolean thrown = false;
+        try {
+            calculator.divide(goodNumber, naughtyNumber);
+        } catch (DivisionByZeroException badDivision) {
+            thrown = true;
+        }
+        assertTrue(thrown);
     }
 }
+
+        /* int goodNumber = 5;
+        int naughtyNumber = 0;
+        Class<DivisionByZeroException> expected = DivisionByZeroException.class;
+        int actual = calculator.divide(goodNumber, naughtyNumber);
+        assertEquals("This will pass if exception is thrown", expected, actual);
+    }*/
+  /*  @Test
+    public void squareRootTest() throws ArithmeticException {
+        int numberToSquare = 4;
+        int expected = 2;
+        int actual = calculator.squareRoot(numberToSquare);
+        assertEquals("This will pass if number is squared",expected,actual);
+    }
+    @Test
+    public void exceptionSquareRootTest() throws ArithmeticException {
+        int numberToSquare = 2;
+        Class<ArithmeticException> expected = ArithmeticException.class;
+        int actual = calculator.squareRoot(numberToSquare);
+        assertEquals("This will pass if exception is thrown",expected,actual);
+    }
+     boolean thrown = false;
+
+*/
+
 
 
