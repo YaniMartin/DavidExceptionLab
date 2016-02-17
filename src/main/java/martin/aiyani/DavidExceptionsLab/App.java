@@ -7,7 +7,7 @@ package martin.aiyani.DavidExceptionsLab;
  */
 public class App extends Calculator {
 
-    public static void main(String[] args) throws DivisionByZeroException {
+    public static void main(String[] args) throws DivisionByZeroException, ComplexNumberException {
         add(1,2);
         add(3,4);
         subtract(3,2);
@@ -16,6 +16,9 @@ public class App extends Calculator {
         multiply(5,3);
         divide(10,2);
         divide(4,0);
+        squareRoot(10);
+        squareRoot(-1);
+
 
      /*  Part 1 Exception Handling in main:
         try{divide(10,2);

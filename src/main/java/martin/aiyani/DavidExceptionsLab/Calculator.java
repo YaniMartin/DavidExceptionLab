@@ -22,13 +22,15 @@ public class Calculator {
         return firstDivideInput/secondDivideInput;
     }
 
-  /*  public double squareRoot(double numberToSquare){
-        double squareRoot = Math.sqrt(numberToSquare);
-
-        return 0;
+    public static double squareRoot(double numberToSquare) throws ComplexNumberException{
+        //double squareRoot = Math.sqrt(numberToSquare);
+        if(numberToSquare<0){
+            throw new ComplexNumberException();
+        }
+        return Math.sqrt(numberToSquare);
         }
 
-*/
+
 
     }
 

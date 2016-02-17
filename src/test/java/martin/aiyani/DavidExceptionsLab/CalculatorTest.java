@@ -1,8 +1,5 @@
 package martin.aiyani.DavidExceptionsLab;
-import org.junit.Assert;
 import org.junit.Test;
-import org.junit.internal.Classes;
-
 import static org.junit.Assert.*;
 
 // ヽ(ﾟДﾟ)ﾉ //
@@ -49,43 +46,30 @@ public class CalculatorTest {
         assertEquals("This will pass if inputs are divided", expected, actual);
     }
 
-    @Test
+    @Test(expected = DivisionByZeroException.class)
     public void exceptionDivisionTest() throws DivisionByZeroException {
         int goodNumber = 5;
         int naughtyNumber = 0;
-        boolean thrown = false;
-        try {
-            calculator.divide(goodNumber, naughtyNumber);
-        } catch (DivisionByZeroException badDivision) {
-            thrown = true;
-        }
-        assertTrue(thrown);
+        int actual = calculator.divide(goodNumber, naughtyNumber);
+        assertEquals("This will pass if exception is thrown",actual);
+    }
+
+    @Test
+    public void squareRootTest() throws ComplexNumberException {
+        double numberToSquare = 4;
+        double expected = 2;
+        double actual = calculator.squareRoot(numberToSquare);
+        assertEquals("this will pass if square root is shown", expected, actual, 0.1);
+    }
+
+    @Test(expected = ComplexNumberException.class)
+    public void exceptionComplexTest() throws ComplexNumberException {
+        double numberToSquare = -1;
+        double actual = calculator.squareRoot(numberToSquare);
+        assertEquals("This wil pass if exception is thrown",actual);
     }
 }
 
-        /* int goodNumber = 5;
-        int naughtyNumber = 0;
-        Class<DivisionByZeroException> expected = DivisionByZeroException.class;
-        int actual = calculator.divide(goodNumber, naughtyNumber);
-        assertEquals("This will pass if exception is thrown", expected, actual);
-    }*/
-  /*  @Test
-    public void squareRootTest() throws ArithmeticException {
-        int numberToSquare = 4;
-        int expected = 2;
-        int actual = calculator.squareRoot(numberToSquare);
-        assertEquals("This will pass if number is squared",expected,actual);
-    }
-    @Test
-    public void exceptionSquareRootTest() throws ArithmeticException {
-        int numberToSquare = 2;
-        Class<ArithmeticException> expected = ArithmeticException.class;
-        int actual = calculator.squareRoot(numberToSquare);
-        assertEquals("This will pass if exception is thrown",expected,actual);
-    }
-     boolean thrown = false;
-
-*/
 
 
 

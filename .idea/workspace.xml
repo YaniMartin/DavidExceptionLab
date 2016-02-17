@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01144c6-6cd3-4dca-88e2-7587e2c2be6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/DivisionByZeroException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/martin/aiyani/DavidExceptionsLab/ComplexNumberException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/ComplexNumberException.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/martin/aiyani/DavidExceptionsLab/App.class" afterPath="$PROJECT_DIR$/target/classes/martin/aiyani/DavidExceptionsLab/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/martin/aiyani/DavidExceptionsLab/Calculator.class" afterPath="$PROJECT_DIR$/target/classes/martin/aiyani/DavidExceptionsLab/Calculator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/martin/aiyani/DavidExceptionsLab/CalculatorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/martin/aiyani/DavidExceptionsLab/CalculatorTest.class" />
@@ -37,24 +37,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.3318584">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5602716">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComplexNumberException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/ComplexNumberException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,9 +77,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/DivisionByZeroException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
               </folding>
             </state>
@@ -77,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -87,10 +99,8 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/martin/aiyani/DavidExceptionsLab/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,13 +125,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/DivisionByZeroException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/Complex.java" />
         <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/ComplexHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/ComplexNumberExceptionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/DivisionByZeroException.java" />
         <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/martin/aiyani/DavidExceptionsLab/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/ComplexNumberException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/martin/aiyani/DavidExceptionsLab/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -143,10 +155,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="460" />
-    <option name="y" value="23" />
-    <option name="width" value="820" />
-    <option name="height" value="709" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -273,6 +283,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../StringProjectsThursday" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -280,32 +291,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
-    <configuration default="false" name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="martin.aiyani.DavidExceptionsLab.ComplexHandler" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DavidExceptionsLab" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="martin.aiyani.DavidExceptionsLab" />
-      <option name="MAIN_CLASS_NAME" value="martin.aiyani.DavidExceptionsLab.CalculatorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="CalculatorTest.exceptionDivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -332,10 +317,36 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="CalculatorTest.exceptionComplexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="martin.aiyani.DavidExceptionsLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DavidExceptionsLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="martin.aiyani.DavidExceptionsLab" />
+      <option name="MAIN_CLASS_NAME" value="martin.aiyani.DavidExceptionsLab.CalculatorTest" />
+      <option name="METHOD_NAME" value="exceptionComplexTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="CalculatorTest.squareRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="martin.aiyani.DavidExceptionsLab.ComplexHandler" />
+          <option name="PATTERN" value="martin.aiyani.DavidExceptionsLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,10 +369,10 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CalculatorTest.exceptionSquareRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CalculatorTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="martin.aiyani.DavidExceptionsLab.ComplexHandler" />
+          <option name="PATTERN" value="martin.aiyani.DavidExceptionsLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,7 +381,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="martin.aiyani.DavidExceptionsLab" />
       <option name="MAIN_CLASS_NAME" value="martin.aiyani.DavidExceptionsLab.CalculatorTest" />
-      <option name="METHOD_NAME" value="exceptionSquareRootTest" />
+      <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -810,19 +821,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionDivisionTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionDivisionTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionComplexTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.squareRootTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionSquareRootTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.addTest" />
       <item index="4" class="java.lang.String" itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionDivisionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionSquareRootTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.squareRootTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionComplexTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.squareRootTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exceptionDivisionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.addTest" />
       </list>
     </recent_temporary>
   </component>
@@ -833,66 +844,66 @@
       <created>1455646342431</created>
       <option name="number" value="Default" />
       <updated>1455646342431</updated>
-      <workItem from="1455646345894" duration="14965000" />
+      <workItem from="1455646345894" duration="20857000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2016.02.16 at 19h 54m 10s.xml">
+    <history-entry file="CalculatorTest - 2016.02.17 at 10h 01m 12s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2016.02.16 at 21h 23m 32s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_addTest - 2016.02.17 at 10h 04m 06s.xml">
+      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2016.02.16 at 21h 24m 33s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_addTest - 2016.02.17 at 10h 04m 46s.xml">
+      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_divideTest - 2016.02.16 at 17h 04m 31s.xml">
-      <configuration name="CalculatorTest.divideTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_exceptionComplexTest - 2016.02.17 at 10h 04m 54s.xml">
+      <configuration name="CalculatorTest.exceptionComplexTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exceptionDivisionTest - 2016.02.16 at 17h 10m 33s.xml">
+    <history-entry file="CalculatorTest_exceptionComplexTest - 2016.02.17 at 10h 06m 42s.xml">
+      <configuration name="CalculatorTest.exceptionComplexTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_exceptionDivisionTest - 2016.02.17 at 10h 04m 51s.xml">
       <configuration name="CalculatorTest.exceptionDivisionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exceptionDivisionTest - 2016.02.16 at 20h 26m 15s.xml">
+    <history-entry file="CalculatorTest_exceptionDivisionTest - 2016.02.17 at 10h 06m 09s.xml">
       <configuration name="CalculatorTest.exceptionDivisionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exceptionDivisionTest - 2016.02.16 at 21h 01m 07s.xml">
+    <history-entry file="CalculatorTest_exceptionDivisionTest - 2016.02.17 at 10h 06m 29s.xml">
       <configuration name="CalculatorTest.exceptionDivisionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exceptionDivisionTest - 2016.02.16 at 21h 23m 20s.xml">
-      <configuration name="CalculatorTest.exceptionDivisionTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_squareRootTest - 2016.02.17 at 10h 00m 57s.xml">
+      <configuration name="CalculatorTest.squareRootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exceptionSquareRootTest - 2016.02.16 at 20h 25m 59s.xml">
-      <configuration name="CalculatorTest.exceptionSquareRootTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_squareRootTest - 2016.02.16 at 20h 20m 49s.xml">
+    <history-entry file="CalculatorTest_squareRootTest - 2016.02.17 at 10h 06m 37s.xml">
       <configuration name="CalculatorTest.squareRootTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14965000" />
+    <option name="totallyTimeSpent" value="20857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="460" y="23" width="820" height="709" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3241491" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32328767" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44732577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44657534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34190232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21486267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -906,7 +917,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -965,29 +976,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.2777778">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/App.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.1951567">
+          <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/DivisionByZeroException.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1951567">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -995,21 +1005,56 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/martin/aiyani/DavidExceptionsLab/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/DivisionByZeroException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/ComplexNumberException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/martin/aiyani/DavidExceptionsLab/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5602716">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
